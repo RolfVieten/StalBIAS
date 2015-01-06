@@ -126,11 +126,12 @@ input {
   height: auto !important;
 }
 
+/* miscellaneous */
+
 .debug_dump {
-  .
-  .
-  .
-  -moz-box-sizing:    border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing:         border-box;
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  @include box_sizing;
 }
